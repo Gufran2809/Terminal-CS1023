@@ -1,0 +1,23 @@
+NAME
+       grep - print lines that match patterns
+
+SYNOPSIS
+       grep [OPTION...] PATTERNS [FILE...]
+       grep [OPTION...] -e PATTERNS ... [FILE...]
+       grep [OPTION...] -f PATTERN_FILE ... [FILE...]
+
+OPTIONS
+       -l:-
+              Suppress  normal  output;  instead  print  the  name  of  each input file from which output would
+              normally have been printed.  Scanning each input file stops upon first match.
+
+       -c:-
+              Suppress  normal  output;  instead print a count of matching lines for each input file.
+
+       -v:-
+              Invert the sense of matching, to select non-matching lines.
+	
+       -n:-
+              Prefix each line of output with the 1-based line number within its input file.
+
+

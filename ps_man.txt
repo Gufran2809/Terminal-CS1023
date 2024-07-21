@@ -1,0 +1,41 @@
+NAME
+       ps - report a snapshot of the current processes.
+
+SYNOPSIS
+       ps [options]
+
+DESCRIPTION
+       ps displays information about a selection of the active processes.
+       If you want a repetitive update of the selection and the displayed
+       information, use top instead.
+
+       This version of ps accepts several kinds of options:
+
+       1   UNIX options, which may be grouped and must be preceded by a
+           dash.
+       2   BSD options, which may be grouped and must not be used with a
+           dash.
+       3   GNU long options, which are preceded by two dashes.
+
+       Options of different types may be freely mixed, but conflicts can
+       appear.  There are some synonymous options, which are functionally
+       identical, due to the many standards and ps implementations that this
+       ps is compatible with.
+	
+       
+      -A:-
+
+        Select all processes.
+       
+      -p:-
+
+        Selected by process ID. 
+
+     -f:-
+
+	Do full-format listing. 
+   
+    -af:-
+
+	Do all full-format listing. 
+

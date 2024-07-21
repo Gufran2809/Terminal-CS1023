@@ -1,0 +1,26 @@
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information about the FILEs (the current directory by de‐
+       fault).  Sort entries alphabetically
+
+ 	-a:-
+              do not ignore entries starting with .
+	
+	-g:-
+	      like -l, but do not list owner.
+
+	-l:-
+	     use a long listing format.
+	
+	-o:-
+	     like -l, but do not list group information
+
+	
+
+	      
+
